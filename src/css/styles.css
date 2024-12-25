@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+  --color_text:#ffffff;
+  --color_text2:#c0c0c0;
+  --color_button: #167BF7;
+  --color_background: #00030c;
+  --font_family:"Inter", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: var(--font_family);
+}
+
+body {
+  background-color: var(--color_background);
+}
+
+.primeiro_quadro {
+  background-image: url(../images/Background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.primeiro_quadro_conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.primeiro_quadro_conteudo_paragrafo {
+  color: var(--color_text);
+  padding-bottom: 22px;
+  font-size: 1.75rem; /* 16px = 1rem | 28px = 1.75em */
+  font-weight: bold;
+  text-align: center;
+}
+
+.image_combo {
+  height: 100px;
+  width: 348px;
+  padding-bottom: 54px;
+}
+
+.primeiro_quadro_conteudo_buttons {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 16px;
+}
+
+.primeiro_quadro_conteudo_buttons_1 {
+  height: 56px;
+  width: 512px;
+  background-color: var(--color_button);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color_text);
+}
+
+.primeiro_quadro_conteudo_buttons_2 {
+  height: 56px;
+  width: 512px;
+  border-radius: 8px;
+  border: 1px solid var(--color_text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color_text);
+}
+
+.primeiro_quadro_conteudo_letrasMiudas {
+  font-size: 0.75rem;
+  color: var(--color_text2);
+}
