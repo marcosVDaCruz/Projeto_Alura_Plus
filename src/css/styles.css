@@ -37,6 +37,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: 2rem;
 }
 
 .primeiro_quadro_conteudo_paragrafo {
@@ -82,7 +83,11 @@ body {
   color: var(--color_text);
 }
 
-.primeiro_quadro_conteudo_letrasMiudas {
+.quadro_conteudo_letrasMiudas {
   font-size: 0.75rem;
   color: var(--color_text2);
+}
+
+.segundo_quadro {
+  grid-template-columns: 50% 50%;
 }
