@@ -89,5 +89,126 @@ body {
 }
 
 .segundo_quadro {
+  display: grid;
   grid-template-columns: 50% 50%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.segundo_quadro_imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+strong {
+  color: var(--color_text);
+  font-size: 3rem;
+}
+
+.segundo_quadro_paragrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-self: center;
+  justify-self: center;
+  height: 50%;
+  width: 70%;
+}
+
+.quadro_conteudo_letras {
+  font-size: 1rem;
+  color: var(--color_text2);
+}
+
+.terceiro_quadro {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.terceiro_quadro_conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 4rem;
+  gap: 1rem;
+}
+
+.terceiro_quadro_conteudo_button {
+  background-color: var(--color_button);
+  border-radius: 8px;
+  color: var(--color_text);
+  padding: 1rem;
+}
+
+.terceiro_quadro_imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quarto_quadro {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.quarto_quadro_imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quarto_quadro_conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 5rem;
+}
+
+.quinto_quadro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.quinto_quadro_dispositivos {
+  display: grid;
+  grid-template-areas: 
+  "div div div";
+  text-align: center;
+}
+
+.dispositivos {
+  color: var(--color_text);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 4rem 2rem;
+}
+
+.links_rapidos_footer {
+  display: flex;
+  color: var(--color_text2);
+  gap: 1rem;
+}
+
+.footer_letrasMiudas {
+  font-size: 0.75rem;
+  color: var(--color_text2);
+  text-align: center;
 }
