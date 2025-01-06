@@ -5,6 +5,7 @@
   --color_text:#ffffff;
   --color_text2:#c0c0c0;
   --color_button: #167BF7;
+  --color_button_efeito: #3c92fa;
   --color_background: #00030c;
   --font_family:"Inter", sans-serif;
 }
@@ -81,6 +82,11 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--color_text);
+}
+
+.buttons:hover {
+  background-color: var(--color_button_efeito);
+  color: var(--color_background);
 }
 
 .quadro_conteudo_letrasMiudas {
@@ -185,6 +191,7 @@ strong {
   grid-template-areas: 
   "div div div";
   text-align: center;
+  list-style-type: none;
 }
 
 .dispositivos {
@@ -203,8 +210,15 @@ footer {
 
 .links_rapidos_footer {
   display: flex;
-  color: var(--color_text2);
   gap: 1rem;
+}
+
+a {
+  color: var(--color_text);
+}
+
+.links_rapidos_footer a:hover {
+  color: var(--color_button_efeito);
 }
 
 .footer_letrasMiudas {
